@@ -1,0 +1,159 @@
+.controller-wrapper {
+  max-height:80vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(7px + 1vmin);
+}
+
+.drop-and-list-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50vw;
+  padding:3em;
+}
+
+.file-drop-container {
+    margin-top: 5vh;
+    height: 10vh;
+    width: 20vw;
+    border-radius: 5em;
+    font-size: 1.5em;
+    color: #282c34;
+    border: 3px solid #282c34;
+ }
+
+.file-drop {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.file-drop > .file-drop-target {
+  border-radius: 5em;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+
+  align-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+
+  text-align: center;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-frame {
+  background-color: rgb(200, 200, 200);
+  box-shadow: none;
+  z-index: 50;
+  opacity: 1;
+  color: white;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-target {
+  color: white;
+  background-color: rgb(150,150,150);
+  box-shadow: 0 0 13px 3px rgb(150,150,150);
+}
+
+.csv-list-container {
+  max-height: 70vh;
+  top:5vh;
+  width: 40vw;
+  background-color: white;
+}
+
+.csv-list {
+  max-height:70vh;
+  width: auto;
+  overflow: scroll;
+}
+
+.csv-list button {
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  cursor: pointer;
+  margin-left:5%;
+  margin-top: 1em;
+  display: inline;
+}
+
+#csv-button {
+  width: 40%;
+  border-radius: 5em; 
+  font-size: 1.50em;
+  height: 4rem;
+}
+
+#download-button {
+  width:auto;
+  font-size: 1.5rem;
+}
+
+#statistics-button {
+  width:auto;
+  font-size: 1.5rem;
+}
+
+.display-container {  
+  max-width: 50vw;
+  width:auto;
+  position: relative;
+  background-color: white;
+  margin:2em;
+  padding-top: 5em;
+}
+
+.display-tables {
+  margin-top: 2em;
+  max-height: 40vh;
+  overflow: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  overflow: scroll;
+}
+tr {
+  background-color: #f5f5f5;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+hr {
+  margin-top:2em
+}
+
