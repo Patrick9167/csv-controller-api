@@ -28,7 +28,7 @@
   position: relative;
   height: 100%;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .file-drop > .file-drop-target {
@@ -108,18 +108,18 @@
 #csv-button {
   width: 40%;
   border-radius: 5em; 
-  font-size: 1.50em;
-  height: 4rem;
+  font-size: 1.2em;
+  height: 3.5rem;
 }
 
 #download-button {
   width:auto;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #statistics-button {
   width:auto;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .display-container {  

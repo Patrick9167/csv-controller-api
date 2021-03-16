@@ -80,7 +80,7 @@ class CSVController extends Component {
     getCSVStatistics(e) {
         var file_name = e.target.value
         return fetch('/'+file_name+'/statistics/')
-        .then(res=> res.text()).then( text=>{
+        .then(res=> res.text()).then(text=>{
             this.displayCSVStatistics(file_name, text)
         })
     }

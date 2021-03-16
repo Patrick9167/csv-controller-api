@@ -7,26 +7,26 @@ import { unmountComponentAtNode } from "react-dom";
 
 // const mockResponse = { type: "basic", url: "http://localhost:3000/example.csv/upload/", redirected: false, status: 201, ok: true, statusText: "CREATED", headers: Headers, body: ReadableStream, bodyUsed: false }
 
-fetchMock.enableMocks()
+// fetchMock.enableMocks()
 
-let container = null;
-beforeEach(() => {
-  // setup a DOM element as a render target
-  container = document.createElement("div");
-  document.body.appendChild(container);
-});
+// let container = null;
+// beforeEach(() => {
+//   // setup a DOM element as a render target
+//   container = document.createElement("div");
+//   document.body.appendChild(container);
+// });
 
-afterEach(() => {
-  // cleanup on exiting
-  unmountComponentAtNode(container);
-  container.remove();
-  container = null;
-});
+// afterEach(() => {
+//   // cleanup on exiting
+//   unmountComponentAtNode(container);
+//   container.remove();
+//   container = null;
+// });
 
-test('CSVcontroller renders', async () => {
-  act(()=> {
-    render(<CSVController />, container);
-  });
+// test('CSVcontroller renders', async () => {
+//   act(()=> {
+//     render(<CSVController />, container);
+//   });
   
-  expect(container.textContent).toBe("Hello")
-});
+//   expect(container.textContent).toBe("Hello")
+// });
