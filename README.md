@@ -7,11 +7,11 @@ There is also a statistics button to view the total data rows that are dated for
 clone the repo:
 ```
 $ git clone https://github.com/Patrick9167/csv-controller-api.git
-cd csv-controller-api
 ```
 
 To run react frontend server:
 ```
+$ cd csv-controller-api
 $ npm install
 $ npm start
 ```
