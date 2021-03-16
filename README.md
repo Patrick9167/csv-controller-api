@@ -21,7 +21,6 @@ Open browser at ```localhost:3000```
 To run flask backend server:
 ```
 $ cd backend
-$ (optional) source venv/bin/activate
 $ pip install python-dotenv
 $ flask run
 ```
